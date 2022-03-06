@@ -1,6 +1,5 @@
 const products = [
   {
-    _id: '1',
     name: 'eggs',
     image: '/images/eggs.jpg',
     description: 'Fresh day old eggs straight from the farm',
@@ -11,7 +10,6 @@ const products = [
     numReviews: 34,
   },
   {
-    _id: '2',
     name: 'chicken',
     image: '/images/chicken.jpg',
     description: 'Fresh 2.5kg whole organic chickens',
@@ -22,7 +20,6 @@ const products = [
     numReviews: 24,
   },
   {
-    _id: '3',
     name: 'garlic',
     image: '/images/garlic.jpg',
     description: 'fresh garlic from tunisia to make your meals pop',
@@ -33,7 +30,6 @@ const products = [
     numReviews: 19,
   },
   {
-    _id: '4',
     name: 'juice',
     image: '/images/juice.jpg',
     description:
@@ -45,7 +41,6 @@ const products = [
     numReviews: 18,
   },
   {
-    _id: '5',
     name: 'milk',
     image: '/images/milk.jpg',
     description: 'Fresh milk processed under the highest quality standards',
@@ -56,7 +51,6 @@ const products = [
     numReviews: 34,
   },
   {
-    _id: '6',
     name: 'oil',
     image: '/images/oil.jpg',
     description: 'nutritios vegetable low fat oil for your tasty meals',
@@ -67,7 +61,6 @@ const products = [
     numReviews: 31,
   },
   {
-    _id: '7',
     name: 'onions',
     image: '/images/onions.jpg',
     description: 'tasty red onions grown from the best farms',
@@ -78,7 +71,6 @@ const products = [
     numReviews: 34,
   },
   {
-    _id: '8',
     name: 'pepper',
     image: '/images/pepper.jpg',
     description: 'Fresh hot african pepper ',
@@ -89,7 +81,6 @@ const products = [
     numReviews: 34,
   },
   {
-    _id: '9',
     name: 'tomatoes',
     image: '/images/tomatoes.jpg',
     description: 'Fresh italian tomatoes habd picked for you',

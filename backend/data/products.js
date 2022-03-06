@@ -6,7 +6,7 @@ const products = [
     description: 'Fresh day old eggs straight from the farm',
     category: 'gorceries',
     price: '1450',
-    countInStock: 25,
+    countInStock: 34,
     rating: 5,
     numReviews: 34,
   },
@@ -56,7 +56,7 @@ const products = [
     numReviews: 34,
   },
   {
-    _id: '1',
+    _id: '6',
     name: 'oil',
     image: '/images/oil.jpg',
     description: 'nutritios vegetable low fat oil for your tasty meals',
@@ -67,7 +67,7 @@ const products = [
     numReviews: 31,
   },
   {
-    _id: '1',
+    _id: '7',
     name: 'onions',
     image: '/images/onions.jpg',
     description: 'tasty red onions grown from the best farms',
@@ -78,7 +78,7 @@ const products = [
     numReviews: 34,
   },
   {
-    _id: '1',
+    _id: '8',
     name: 'pepper',
     image: '/images/pepper.jpg',
     description: 'Fresh hot african pepper ',
@@ -89,7 +89,7 @@ const products = [
     numReviews: 34,
   },
   {
-    _id: '1',
+    _id: '9',
     name: 'tomatoes',
     image: '/images/tomatoes.jpg',
     description: 'Fresh italian tomatoes habd picked for you',

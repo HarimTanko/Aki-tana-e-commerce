@@ -21,7 +21,7 @@ const Header = () => {
       <Navbar bg='primary' variant='light' expand='lg' collapseOnSelect>
         <Container>
           <LinkContainer to='/'>
-            <Navbar.Brand>AKI-TANA</Navbar.Brand>
+            <Navbar.Brand> AKI-TANA</Navbar.Brand>
           </LinkContainer>
           <SearchBox />
           <Navbar.Toggle aria-controls='basic-navbar-nav' />

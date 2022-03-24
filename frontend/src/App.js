@@ -46,7 +46,7 @@ const App = () => {
               exact
             />
             <Route
-              path='/admin/productlist/:pageNumber'
+              path='/admin/productlist'
               element={<ProductListScreen />}
               exact
             />

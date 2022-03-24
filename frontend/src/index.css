@@ -6,6 +6,21 @@ a {
   text-decoration: none;
 }
 
+.hero-section {
+  min-height: 60vh;
+  background-image: url('../public/images/header-image.jpg');
+  background-position: top;
+  background-size: cover;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  font-weight: 300;
+  z-index: 10;
+  text-align: end;
+  color: #78c2ad;
+}
+
 h3 {
   padding: 0.5rem 0;
 }
@@ -38,7 +53,7 @@ h2 {
 }
 
 .carousel-caption h2 {
-  color: #fff;
+  color: #78c2ad;
 }
 
 .carousel img {

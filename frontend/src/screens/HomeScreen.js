@@ -1,13 +1,15 @@
 import React, { useEffect } from 'react';
+
 import { useDispatch, useSelector } from 'react-redux';
 import { Row, Col } from 'react-bootstrap';
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 
 import Product from '../components/Product';
 import Message from '../components/Message';
 import Loader from '../components/Loader';
 import Paginate from '../components/Paginate';
 import ProductCarousel from '../components/ProductCarousel';
+import Meta from '../components/Meta';
 
 import { listProducts } from '../actions/productActions';
 
@@ -29,7 +31,17 @@ const HomeScreen = () => {
 
   return (
     <>
-      {!keyword && <ProductCarousel />}
+      <div className='hero-section'>
+        <h1>Fresh Groceries to your doorstep...</h1>
+      </div>
+      <Meta />
+      {!keyword ? (
+        <ProductCarousel />
+      ) : (
+        <Link to='/' className='btn btn-primary'>
+          Back
+        </Link>
+      )}
       <h1>Our Products</h1>
       {loading ? (
         <Loader />
